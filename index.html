@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tabela</title>
+</head>
+<table>
+  <caption>  <!-- atribui uma legenda ou título para a tabela -->
+    Tabela de Empresas <!-- nesse caso, o título é 'Tabela de Empresas' -->
+  </caption>
+  <thead>   <!-- a tabela é como um corpo, então começamos com a cabeça, ou 'thead'  -->
+    
+    <!-- vale lembrar que o thead é opcional, eu só defini ele pois coloquei um background-color no CSS -->
+
+    <tr> <!-- criei uma linha de células -->
+      <th scope="col">Empresa</th>  <!-- onde cada célula é th, e eu defini elas como coluna (pois se relaciona com as células abaixo) -->
+      <th scope="col">Logotipo</th>
+      <th scope="col">Descrição</th>
+      <th scope="col">Link</th>
+    </tr>
+    
+  </thead>
+
+  <tbody id="tbody1"> <!-- criei o corpo, e defini um ID pra individualizar, assim consegui fazer um esquema de cores posteriormente -->
+    <tr> <!-- mesma coisa que na "cabeça", criei uma linha para adicionar células  -->
+      <td class='nome-empresa'>Mentos</td> <!-- dessa vez criei uma classe com todos os nomes das empresas para aumentar apenas o tamanho dos nomes posteriormente  -->
+      <td> 
+        <img src="https://1000logos.net/wp-content/uploads/2021/05/Mentos-logo.png"> <!-- aplicação da imagem do site do arquivo da imagem  -->
+      </td>
+      <td>Mentos é uma marca global, vendida em mais de 100 países. Com o posicionamento de criar novas conexões entre as pessoas, a bala colorida leva alegria a milhões de brasileiros. No Brasil, o produto mais conhecido e vendido da marca é o tubinho de balas coloridas.</td>
+      <td>
+        <a href="https://www.mentos.com.br/">mentos.com.br</a> <!-- fiz uma ligação com o <a> para reconhecer o site e o href fazer direcionar para o site resumido  -->
+  </tbody>
+
+  <tbody id="tbody2"> <!-- defini outro id para poder colorir seu fundo posteriormente   -->
+    <tr> <!-- o processo abaixo apenas repete as etapas comentadas acima, apenas mudando de qual empresa se trata.  -->
+      <td class='nome-empresa'>Fini</td>
+      <td>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Fini_Logo.png">
+      </td>
+      <td>Fini é uma empresa espanhola de doces fundada em 1971. É uma das maiores empresas de guloseimas do mundo. O Brasil é o principal mercado da companhia e os produtos da empresa estão presentes em mais de 320 mil pontos de vendas brasileiros, fazendo a Fini ser a líder de mercado no Brasil.</td>
+      <td>
+        <a href="https://www.finistore.com.br/">finistore.com.br</a>
+  </tbody>
+
+  <tbody id="tbody1">
+    <tr>
+      <td class='nome-empresa'>Cheetos</td>
+      <td>
+        <img src="https://www.pngall.com/wp-content/uploads/15/Cheetos-Logo-PNG-HD-Image.png">
+      </td>
+      <td>Cheetos é uma marca que engloba vários tipos de snacks de farinha de milho com sabor de queijo distribuídas pela Frito-Lay, uma subsidiária da PepsiCo. A marca apareceu pela primeira vez em 1948 como "Fritatos" e foi inventada por Charles Elmer Doolin, que também é criador de Fritos.</td>
+      <td>
+        <a href="https://www.cheetos.com/">cheetos.com</a>
+  </tbody>
+    
+    
+  <tbody id="tbody2">
+    <tr>
+      <td class='nome-empresa'>Pringles</td>
+      <td>
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Pringles_2021.svg/1200px-Pringles_2021.svg.png">
+      </td>
+      <td>Pringles é uma marca americana de batatas chips produzido pela empresa Kellogg Company. Foi fundada em 1968 nos EUA. Tornou-se a primeira batata a ser vendida num tubo cilíndrico.</td>
+      <td>
+        <a href="https://www.pringles.com/pt/home.html">pringles.com</a>
+  </tbody>
+    
+        
+         <tbody id="tbody1">
+    <tr>
+      <td class='nome-empresa'>Oreo</td>
+      <td>
+        <img src="https://1000logos.net/wp-content/uploads/2020/07/Oreo-Logo.png">
+      </td>
+      <td>Oreo é uma marca de biscoito recheado da Nabisco, uma divisão do grupo empresarial estadunidense Mondelēz International. Consiste em dois biscoitos redondos de chocolate e um recheio doce sabor baunilha. Oreo foi criado na Nabisco em 1912, em Nova Iorque, com o objetivo de atingir o mercado britânico.</td>
+      <td>
+        <a href="https://www.oreo.com/">oreo.com</a>
+  </tbody>
+
+</table>
+<body>
+    
+</body>
+</html>

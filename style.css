@@ -1,0 +1,58 @@
+table { /* todas as alterações se tratam da tabela inteira no geral, podendo ser especificado depois */
+    border-collapse: collapse; /* defini que as bordas são compartilhadas através do collapse */
+   font-family: sans-serif; /* defini a fonte */
+   font-size: 13px; /* tamanho da fonte em pixels */
+   letter-spacing: 1px; /* auto-explicativo, "espaçamento entre letras" */
+   margin: 0 auto; /* centralizei a tabela horizontalmente */
+ }
+ 
+ caption { /* mudei tamanho e fonte do título */
+   font-size: 40px;
+   font-family: "Serif";
+ }
+ 
+ thead { /* mudei a cor do nome das colunas  */
+   background-color: #625df5;
+ }
+ 
+ #tbody1 { /* mudando a cor do fundo do tbody1 */
+   background-color: #d2c7eb;
+ }
+ 
+ #tbody2 { /* mudando cor do tbody2 */
+   background-color: #babcff;
+ }
+ 
+ .nome-empresa { /* aumentei o tamanho de todos os nomes da empresa, conforme a classe atribuida no http */
+   font-size: 20px;
+ }
+ 
+ table,
+ th,
+ td { /* vírgula para especificar a cor e tamanho da borda da tabela, das colunas e células */
+   border: 2px solid rgb(140, 140, 140);
+ }
+ 
+ th,
+ td {
+   padding: 10px; /* define o tamanho do bloco do texto */
+   text-align: center; /* e a posição do texto */
+ }
+ 
+ th {
+   width: 200px; /* largura das células da coluna */
+   font-size: 20px; /* tamanho das letras */
+ }
+ 
+ td {
+   width: 200px; /* largura da célula */
+   height: 100px; /* altura */
+   max-width: 200px; /* largura e altura máxima */
+   max-height: 100px;
+ }
+ 
+ img { /* definindo altura e largura máxima da imagem  */
+   max-width: 180px; 
+   max-height: 140px;
+ }
+
